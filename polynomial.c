@@ -90,3 +90,12 @@ int add(struct poly p1[], struct poly p2[], int t1, int t2, struct poly p3[]) {
 
     return k;
 }
+/*/*3. **Add Function (`int add(struct poly p1[], struct poly p2[], int t1, int t2, struct poly p3[])`)**
+   - Initialize indices `i`, `j`, and `k` to 0 to traverse `p1`, `p2`, and `p3` respectively.
+   - Use a while loop to compare exponents of `p1` and `p2` until either of them is exhausted.
+   - If the exponents are equal, add the coefficients and set the exponent in the result polynomial (`p3`).
+   - If the exponent of `p1` is greater, copy the term from `p1` to `p3`.
+   - If the exponent of `p2` is greater, copy the term from `p2` to `p3`.
+   - After the while loop, copy the remaining terms from `p1` and `p2` to `p3` if any.
+   - Return the total number of terms in the result polynomial.*/
+*/
